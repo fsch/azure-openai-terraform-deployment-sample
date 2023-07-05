@@ -69,7 +69,7 @@ def send_click():
     st.session_state.response = query_engine.query(st.session_state.prompt)
     st.session_state.lamalogs = service_context.llama_logger.get_logs()
 
-st.title("Azure OpenAI Doc Chatbot")
+st.title("Valutico Plattform Chatbot")
 
 sidebar_placeholder = st.sidebar.container()
 
